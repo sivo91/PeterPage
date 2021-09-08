@@ -1,0 +1,176 @@
+
+/* maine */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+.navbar {
+  position: relative;
+  display: flex;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  overflow: hidden;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.navbar > a {
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.3rem;
+  color: rgb(31, 30, 30);
+  letter-spacing: .1px;
+  margin: 20px;
+
+}
+
+.navbar > a:hover {
+  color: black;
+}
+
+
+/* body */
+
+main {
+ position: relative;
+ width: 100%;
+ height: 100vh;
+}
+
+.container {
+  position: relative;
+  margin-top: 130px;
+  top: 150px; 
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+ 
+}
+
+.imgtitle {
+  position: relative;
+  margin-top: 5rem;
+  width: 220px;
+  height: 220px;
+  left: 27%;
+  transform: translateX(-50%, -50%);
+  border-bottom: 3px solid rgb(139, 86, 199);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.heroImage {
+  width: 220px;
+}
+
+.texts {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+
+.resume {
+  position: relative;
+  margin-top: 2rem;
+  left: -9px;
+}
+
+.resume a {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+.resume a:hover {
+  background-color: blue;
+  color: white;
+  font-size: 1.1rem;
+}
+ 
+.doubledown{
+  position: relative;
+  width: 5px;
+  height:  5px;
+  font-size: 17px;
+  margin: 5px;
+  animation: arrow 1s  infinite;
+}
+
+
+
+@keyframes arrow {
+  0% { transform: translateY(0); }
+
+  50% { transform: translateY(4px); }
+
+   0% { transform: translateY(0); }
+
+}
+
+
+
+/* responsive web site */
+
+@media (max-width: 570px) {
+ 
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  
+  .navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+   
+    background-color: rgb(0, 0, 95);
+    width: 100%;
+    left: -80px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    z-index: 555;
+    visibility: hidden;
+  }
+  
+  .navbar > a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: .1px;
+    margin: 20px;
+  }
+
+ 
+  .show {
+    visibility: visible;
+  }
+
+  .home {
+    position: fixed;
+    left: 25px;
+    z-index: 888;
+    color: rgb(29, 3, 102);
+    visibility: visible;
+  }
+}

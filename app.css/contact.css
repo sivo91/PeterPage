@@ -1,0 +1,163 @@
+ 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+.navbar {
+  position: relative;
+  display: flex;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  overflow: hidden;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.navbar > a {
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.3rem;
+  color: rgb(31, 30, 30);
+  letter-spacing: .1px;
+  margin: 20px;
+
+}
+
+.navbar > a:hover {
+  color: black;
+}
+
+
+ main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+   
+ }
+
+ .form {
+  position: relative;
+  top: 150px;
+  width: 550px;
+  height: 500px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+ }
+
+.name {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+.firstName, .lastName {
+  width: 240px;
+  padding: 9px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.textArea {
+  width: 490px;
+  border-radius: 4px;
+  border-radius: none;
+  padding: 9px;
+}
+
+.btnform {
+  position: relative;
+  padding: 10px;
+  width: 100px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btnform:hover {
+  background-color: blue;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.plane {
+  position: relative;
+  width: 5px;
+  height:  5px;
+  font-size: 17px;
+  margin: 5px;
+  animation: plane 1s  infinite;
+}
+
+@keyframes plane {
+  0% { transform: translateY(0); }
+
+  50% { transform: translate(2px, -2px); }
+
+   0% { transform: translateY(0); }
+
+}
+
+
+
+
+
+
+/* responsive web site */
+
+@media (max-width: 570px) {
+ 
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  
+  .navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    align-items: center;
+    background-color: rgb(0, 0, 95);
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    font-weight: 900;
+    letter-spacing: 1px;
+    z-index: 555;
+  }
+  
+  .navbar > a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: .1px;
+    margin: 20px;
+  }
+}

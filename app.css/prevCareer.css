@@ -1,0 +1,334 @@
+
+
+/* body **********************************/
+
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+ /* background image */
+.bgImage {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+
+}
+
+
+
+ /* BOX JERSEYS */
+/* .prevCarrer {        
+  position: relative;
+  width: 95%;
+  height: 600px;
+  left: 2.5%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+  border-radius: 20px;
+} */
+
+  
+ .panelAwards  {
+   position: relative;
+   top: 30px;
+   width: 100%;
+ }
+
+ .TnMajster {
+   position: relative;
+   width: 40%;
+   top: 30px;
+   border-radius: 10px;
+ }
+
+ .AKcup {
+   position: relative;
+   top: -40px;
+   width: 50%;
+ }
+
+ .teamsaward {
+   position: relative;
+   width: 60%;
+   left: 20%;
+ }
+
+ .panelindividawards {
+  position: relative;
+  width: 100%; 
+ }
+
+ /*  first row */
+ .duklamedaile {
+  position: relative;
+  width: 70%;
+  left: 15%;
+  top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+   
+
+
+ .silver, .gold, .brondz {
+   width: 20%;
+   text-align: center;
+ }
+
+
+
+ .imggold {
+   overflow: hidden;
+ }
+
+ .goldmedail {
+   transform: scale(2.5);
+ }
+
+  /* ONE AND HALF ROW */
+   .onehalfrow {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+    padding: 20px;
+    text-align: center;
+   }
+
+   .linkFastScore {
+     position: relative;
+     top: -16px;
+     margin-left: 15px;
+     border: 1px solid blue;
+     border-radius: 6px;
+     padding: 10px;
+     color: blue;
+
+   }
+
+
+  /* second row */
+  .alaskaAwards {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+    padding: 20px;
+    text-align: center;
+   
+  }
+    
+    /* GLASS AWARDS */
+  .glassAwards {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .glassAwardsAlaska {
+    width: 100px;
+    height: auto;
+  }
+
+  .glassAwardsAlaska:hover {
+    transform: scale(2);
+  }
+
+  .firstTeam, .sportmanShip, .performance {
+    width: 20%;
+  }
+
+   
+
+  /* 3rd  ROW  BUUBLE-HEAD */
+  .thirdrow {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    display: flex;
+    top: 30%;
+    padding: 20px;
+    text-align: center;
+  }
+
+   .bubble-head, .bubble-stats, .fun-fuct {
+     width: 40%;
+   }
+
+
+
+
+  /* prvy panel dresov */
+  .panel {
+    position: relative;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    left: 5%;
+    padding: 15px;
+  }
+ 
+
+.paneldresu {
+  width: 12rem;
+  height: 12rem;
+  margin: 20px;
+}
+
+
+.dres {
+  position: relative;
+  width: 12rem;
+
+}
+
+
+.logoteamu {
+  position: relative;
+  width: 3.2rem;
+  height: 3.2rem;
+  left: 37%;
+  z-index: 200;
+  top: -82%;
+}
+
+.modal {
+  position: fixed;
+  width: 80%;
+  height: 50%;
+  left: 10%;
+  top: 150px;
+  letter-spacing: 0.5px;
+  display: flex;
+  background-color: rgb(202, 202, 223);
+  z-index: 99999;
+  border: 2px solid blue;
+  border-radius: 18px;
+  padding: 15px;
+  visibility: hidden;
+}
+
+/* close btn modal */
+.closebtn {
+  position: relative;
+  font-size: 2rem;
+  
+
+}
+
+.showit {
+  visibility: visible;
+  z-index: 4545545454;
+}
+
+.textbox {
+  position: relative;
+  width: 48%;
+  text-align: center;
+}
+
+ 
+.pictbox {
+  position: relative;
+  width: 52%;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+ /* parent / for fetch*/
+.logo {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  top: 40px;
+  background-color: rgb(117, 32, 32);
+  margin: 1px;
+}
+
+ /* children with 100% height and width */
+.dress {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+}
+
+.logoteams {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  left: 35%;
+  z-index: 200;
+  top: -80%;
+ 
+}
+
+ 
+
+
+
+
+
+
+
+
+/* responsive web site */
+
+@media (max-width: 570px) {
+ 
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  
+  .navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    align-items: center;
+    background-color: rgb(0, 0, 95);
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    font-weight: 900;
+    letter-spacing: 1px;
+    z-index: 555;
+  }
+  
+  .navbar > a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: .1px;
+    margin: 20px;
+  }
+}
