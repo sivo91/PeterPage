@@ -1,50 +1,14 @@
-* {
+/*  * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
-}
+} */
 
-
-.navbar {
-  position: relative;
-  display: flex;
-  padding: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0;
-  overflow: hidden;
-  align-items: center;
-  width: 100%;
-  margin: 0 auto;
-  justify-content: center;
-  font-weight: 900;
-  letter-spacing: 1px;
-}
-
-.navbar > a {
-  font-family: 'Times New Roman', Times, serif;
-  text-decoration: none;
-  list-style: none;
-  font-size: 1.3rem;
-  color: rgb(31, 30, 30);
-  letter-spacing: .1px;
-  margin: 20px;
-
-}
-
-.navbar > a:hover {
-  color: black;
-}
-
-
-
-  .container {
+.container {
     position: relative;
     top: 40px;
-    width: 550px;
-    height: 100vh;
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -57,53 +21,18 @@
   margin: 0 auto;
   font-size: 20px;
   letter-spacing: 1px;
-  
 }
-
-
-
-
-
-
-
-/* responsive web site */
 
 @media (max-width: 570px) {
- 
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-  
-  
-  .navbar {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    align-items: center;
-    background-color: rgb(0, 0, 95);
-    width: 100%;
+
+  .aboutText {
+    position: relative;
+    width: 300px;
+    top: 40px;
+    text-align: center;
     margin: 0 auto;
-    justify-content: center;
-    font-weight: 900;
+    font-size: 20px;
     letter-spacing: 1px;
-    z-index: 555;
+    
   }
-  
-  .navbar > a {
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    list-style: none;
-    font-size: 1.3rem;
-    color: rgb(255, 255, 255);
-    letter-spacing: .1px;
-    margin: 20px;
-  }
-}
+} 

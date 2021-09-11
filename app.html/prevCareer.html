@@ -12,8 +12,9 @@
 </head>
 <body>
    <!-- navbar -->
-   <div class="navbar">
-    <a href="../app.html/app.html"><i class="fas fa-home home"></i></a>
+   <div class="navbar toggle">
+    <a href="#"><i class="fas fa-bars home" onclick="toggleClass()"></i></a>
+    <a href="../app.html/app.html"><i class="fas fa-home"></i></a>
     <a href="../app.html/about.html">About</a>
     <a href="../app.html/prevCareer.html">Previous Career</a>
     <a href="../app.html/projects.html">Projects</a>
@@ -23,13 +24,10 @@
   <div class="container">
 
     <!-- background image -->
-    <img src="../imgs/alaskaimg.png" class="bgImage" alt="player img">
-
-    <!-- TITLE -->
-    <h2 style="text-align: center;">Previous Carrer</h2><br>
+    <img src="../imgs/alaskaimg.png" class="bgImage" alt="playerbg img">
 
 
-      <!-- TEAMS AWARDS -->
+      <!-- DUKLA TRENCIN CHAMPIONSHIP -->
      <div class="panelAwards">
 
              <!-- DUKLA -->
@@ -60,6 +58,8 @@
 
      </div><br>
 
+     <p class="dots" style="color: rgb(100, 100, 204);">.....</p><br>
+
      <!-- INDIVIDUAL AWARDS -->
      <div class="panelindividawards">
  
@@ -71,7 +71,9 @@
              <h2>Dukla Trencin</h2>
              <h3> 2006 / 2007</h3>
              <h4>2nd Place</h4>
-             <img src="../awards/striebro.png" class="medaileImages" width="50%" alt="silver">
+             <div class="imgsilver">
+              <img src="../awards/striebro.png" class="medaileImages"  alt="silver">
+             </div>
            </div>
  
            <!-- gold -->
@@ -80,7 +82,7 @@
              <h3> 2003 / 2004</h3>
              <h4>ChampionShip</h4>
               <div class="imggold">
-               <img src="../awards/zlato.png" width="50%" class="goldmedail" alt="gold">
+               <img src="../awards/zlato.png"  class="goldmedail" alt="gold">
               </div>
            </div>
  
@@ -89,20 +91,28 @@
              <h2>Dukla Trencin</h2>
              <h3> 2004 / 2005</h3>
              <h4>3rd Place</h4>
-             <img src="../awards/brondz.png"  width="50%" alt="brondz">
+             <div class="imgbrondz">
+              <img src="../awards/brondz.png" class="medaileImages"   alt="brondz">
+             </div>
            </div>
          </div>
-        </div> <br><br><br><br><br>
+        </div><br><br><br>
+        
+        <p class="dots" style="color: goldenrod;">.....</p>
+        
+        <br><br>
 
-          <!-- ONE AND HALF ROW / Fastest SCORE -->
+          <!--  CERTIFICATE SCORE -->
           <div class="onehalfrow">
+                 
                  <h2>MsHK Zilina</h2>
                  <h3>2011 / 2012</h3>
                  <br><br>
-                 <img src="../awards/SK_rekord_(A).jpg" width="60%" alt="score certificate">
+                 <img src="../awards/CERTIFICATE.jpg" width="600px" alt="score certificate">
                  <a href="https://en.wikipedia.org/wiki/Peter_Siv%C3%A1k" target="_blank" class="linkFastScore">Read More</a>
+          </div><br>
 
-          </div>
+          <p class="dots" style="color: rgb(121, 91, 17);">.....</p><br>
 
          <!--  SECOND ROW / ALASKA GLASS AWARDS -->
          <div class="secondrow">
@@ -115,24 +125,27 @@
              <!-- GLASSAWARD -->
             <div class="glassAwards">
 
-              <div class="firstTeam">
-                <h3>All-Star Team</h3>
-                <img src="../awards/firstTeam.png" class="glassAwardsAlaska"  alt="">
-              </div>
-
               <div class="sportmanShip">
                 <h3>SportmanShip Award</h3>
-                <h4> 67 games - 10PM</h4>
-                <img src="../awards/sportmanShip.png" class="glassAwardsAlaska"  alt="">
+                <h4> 67 games - 10PM</h4><br>
+                <img src="../awards/sportmanShip.png" class="glassAwardsAlaska"  alt="sportmanShip">
+              </div>
+
+              <div class="firstTeam">
+                <h3>All-Star Team</h3>
+                <img src="../awards/firstTeam.png" class="glassAwardsAlaska"  alt="first team img">
               </div>
 
               <div class="performance">
                 <H3>Performance Award</H3>
-                <h4>Heighest plus points in leauge (49)</h4>
-                <img src="../awards/sportmanShip.png" class="glassAwardsAlaska"  alt="">
+                <h4>Heighest plus points in leauge (49)</h4><br>
+                <img src="../awards/sportmanShip.png" class="glassAwardsAlaska"  alt="performance">
               </div>
 
-            </div>
+            </div><br>
+
+            <p class="dots" style="color: goldenrod;">.....</p><br><br>
+
             
 
 
@@ -142,11 +155,7 @@
         <!--  3rd ROW / BUUBLE-HEAD -->
          <div class="thirdrow">
 
-            <!-- BOBBLE-HEAD -->
-           <div class="bubble-head">
-              <img src="../awards/BUBBLEHEAD.png" alt="buuble-head">
-           </div>
-              
+             
            <!-- BUBBLE-STATS -->
            <div class="bubble-stats"><br><br>
              <h3>Bobble Stats</h3><br>
@@ -154,21 +163,29 @@
             <p> <strong>Team:</strong> Stockton Thunder</p>
             <p> <strong>Date Released:</strong> 3/14/2015</p>
             <p> <strong>No. Release:</strong> 500</p>
-            <p> <strong>Arena:</strong> Stockton Arena</p>
+            <p> <strong>Arena:</strong> Stockton Arena, CA</p>
             <p> <strong>Attendance:</strong> 5545</p>
             <p> <strong>Number:</strong> 91</p>
             <p> <strong>Position:</strong> Right Wing</p>
             <p> <strong>Bobble Type:</strong> Player</p>
+            <p> <strong>Blade Curve:</strong> Joe Sakic</p>
+           </div>
+
+            <!-- BOBBLE-HEAD -->
+            <div class="bubble-head">
+              <img src="../awards/BUBBLEHEAD.png" alt="buuble-head">
            </div>
 
            <!-- FUN-FACT -->
            <div class="fun-fact"><br><br>
              <h3>Fun Fact</h3><br>
-             <p>Sivak was traded to the Toronto Marlies one month before his bobblehead night</p>
+             <p>Sivak was traded to the Toronto Marlies one month before his bobblehead night.</p>
            </div>
 
          </div>
-     </div>
+     </div><br>
+
+     <p class="dots" style="color: goldenrod;">.....</p><br><br>
 
 
 
@@ -343,7 +360,7 @@
                   <img src="../hokejfoto/za.png" width="330px" alt="">
                 </div>
                 <i class="far fa-times-circle closebtn">
-                  <img src="" alt="">
+                  <img src="" alt="za">
                 </i>
               </div>
         </div>
@@ -353,7 +370,7 @@
           <!-- dress -->
           <img src="../logos/dress.png"  class="dres" alt="dres">
         <!--  logo -->
-          <img src="../logos/HKM logo_classic_PNG.png"  class="logoteamu" data-id="6" alt="orlando">
+          <img src="../logos/HKM.png"  class="logoteamu" data-id="6" alt="orlando">
 
               <!--  SHOWING STATS -->
               <div class="modal">
@@ -398,7 +415,7 @@
               </div>
         
                 <div class="pictbox">
-                  <img src="../hokejfoto/zlin.png" width="500px" alt="">
+                  <img src="../hokejfoto/zlin.png" width="500px" alt="zlin">
                 </div>
                 <i class="far fa-times-circle closebtn"></i>
               </div>
@@ -409,7 +426,7 @@
           <!-- dress -->
           <img src="../logos/dress.png"  class="dres" alt="dres">
         <!--  logo -->
-          <img src="../logos/sf.png"  class="logoteamu" data-id="14" alt="orlando">
+          <img src="../logos/sf.png"  class="logoteamu" data-id="14" alt="sf">
 
               <!--  SHOWING STATS -->
               <div class="modal">
@@ -426,7 +443,7 @@
               </div>
         
                 <div class="pictbox">
-                  <img src="../hokejfoto/sanfran.png" width="100%" alt="">
+                  <img src="../hokejfoto/sanfran.png" width="100%" alt="sf">
                 </div>
                 <i class="far fa-times-circle closebtn"></i>
               </div>
@@ -437,7 +454,7 @@
           <!-- dress -->
           <img src="../logos/dress.png"  class="dres" alt="dres">
         <!--  logo -->
-          <img src="../logos/shark.png"  class="logoteamu" data-id="15" alt="orlando">
+          <img src="../logos/shark.png"  class="logoteamu" data-id="15" alt="shark">
 
               <!--  SHOWING STATS -->
               <div class="modal">
@@ -453,7 +470,7 @@
                </div>
         
                 <div class="pictbox">
-                  <img src="../hokejfoto/sharks.png" width="500px" alt="">
+                  <img src="../hokejfoto/sharks.png" width="500px" alt="shark">
                 </div>
                 <i class="far fa-times-circle closebtn"></i>
               </div>
@@ -464,7 +481,7 @@
           <!-- dress -->
           <img src="../logos/dress.png"  class="dres" alt="dres">
         <!--  logo -->
-          <img src="../logos/ak.png"  class="logoteamu" data-id="3" alt="orlando">
+          <img src="../logos/ak.png"  class="logoteamu" data-id="3" alt="ak">
 
             <!--  SHOWING STATS -->
             <div class="modal">
@@ -481,7 +498,7 @@
              </div>
       
               <div class="pictbox">
-                <img src="../hokejfoto/alaskacupp.png" width="300px" alt="">
+                <img src="../hokejfoto/alaskacupp.png" width="300px" alt="ak">
               </div>
               <i class="far fa-times-circle closebtn"></i>
             </div>
@@ -492,7 +509,7 @@
           <!-- dress -->
           <img src="../logos/dress.png"  class="dres" alt="dres">
         <!--  logo -->
-          <img src="../logos/abb.png"  class="logoteamu" data-id="2" alt="orlando">
+          <img src="../logos/abb.png"  class="logoteamu" data-id="2" alt="abb">
 
             <!--  SHOWING STATS -->
             <div class="modal">
@@ -520,7 +537,7 @@
           <!-- dress -->
           <img src="../logos/dress.png"  class="dres" alt="dres">
         <!--  logo -->
-          <img src="../logos/stockton.png"  class="logoteamu" data-id="16" alt="orlando">
+          <img src="../logos/stockton.png"  class="logoteamu" data-id="16" alt="stockton">
 
             <!--  SHOWING STATS -->
             <div class="modal">
@@ -548,7 +565,7 @@
           <!-- dress -->
           <img src="../logos/dress.png"  class="dres" alt="dres">
         <!--  logo -->
-          <img src="../logos/brifge.png"  class="logoteamu" data-id="4" alt="orlando">
+          <img src="../logos/brifge.png"  class="logoteamu" data-id="4" alt="bridge">
 
             <!--  SHOWING STATS -->
             <div class="modal">
@@ -737,20 +754,14 @@
               </div>
               <i class="far fa-times-circle closebtn"></i>
             </div>
-           
         </div>
-
-      </div>
-
-
-       
+      </div> 
       <!-- text about me -->
       <!-- <div class="prevCarrer"></div> -->
-
-
     </div>
    </div> 
   
+   
    <script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script>
   <script src="../app.js"></script>
 </body>

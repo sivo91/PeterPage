@@ -1,7 +1,5 @@
 
 
-/* body **********************************/
-
 .container {
   position: relative;
   width: 100%;
@@ -17,10 +15,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.15;
-
 }
-
-
 
  /* BOX JERSEYS */
 /* .prevCarrer {        
@@ -56,6 +51,13 @@
    width: 50%;
  }
 
+
+   /* DOTS */
+   .dots {
+     font-size: 7rem;
+     text-align: center;
+  }
+
  .teamsaward {
    position: relative;
    width: 60%;
@@ -76,26 +78,38 @@
   display: flex;
   justify-content: space-evenly;
  }
+ 
 
-   
-
-
- .silver, .gold, .brondz {
-   width: 20%;
-   text-align: center;
+   /* MEDAILE */
+ .medaileImages {
+   width: 50%;
  }
 
+  
+ .medaileImages:hover {
+  transform: scale(1.5);
+ }
 
+ .silver, .gold, .brondz {
+   width: 35%;
+   text-align: center;
+   
+ }
 
- .imggold {
+ .imggold, .imgsilver, .imgbrondz {
    overflow: hidden;
  }
 
  .goldmedail {
+   width: 50%;
    transform: scale(2.5);
  }
 
-  /* ONE AND HALF ROW */
+ .goldmedail:hover {
+   transform: scale(3.5);
+ }
+
+  /* CERTIFICATE */
    .onehalfrow {
     position: relative;
     width: 70%;
@@ -109,15 +123,15 @@
      position: relative;
      top: -16px;
      margin-left: 15px;
-     border: 1px solid blue;
+     border: 1px solid rgb(4, 4, 165);
      border-radius: 6px;
      padding: 10px;
-     color: blue;
+     color: rgb(5, 5, 136);
 
    }
 
 
-  /* second row */
+  /* SECOND ROW ALASKA GLASS AWARD */
   .alaskaAwards {
     position: relative;
     width: 70%;
@@ -125,7 +139,6 @@
     top: 30%;
     padding: 20px;
     text-align: center;
-   
   }
     
     /* GLASS AWARDS */
@@ -136,13 +149,10 @@
   }
 
   .glassAwardsAlaska {
-    width: 100px;
+    width: 200px;
     height: auto;
   }
 
-  .glassAwardsAlaska:hover {
-    transform: scale(2);
-  }
 
   .firstTeam, .sportmanShip, .performance {
     width: 20%;
@@ -164,8 +174,6 @@
    .bubble-head, .bubble-stats, .fun-fuct {
      width: 40%;
    }
-
-
 
 
   /* prvy panel dresov */
@@ -235,6 +243,7 @@
 .textbox {
   position: relative;
   width: 48%;
+  margin: 3rem;
   text-align: center;
 }
 
@@ -295,40 +304,5 @@
 
 @media (max-width: 570px) {
  
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-  
-  
-  .navbar {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    align-items: center;
-    background-color: rgb(0, 0, 95);
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-    font-weight: 900;
-    letter-spacing: 1px;
-    z-index: 555;
-  }
-  
-  .navbar > a {
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    list-style: none;
-    font-size: 1.3rem;
-    color: rgb(255, 255, 255);
-    letter-spacing: .1px;
-    margin: 20px;
-  }
+ 
 }

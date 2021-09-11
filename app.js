@@ -1,6 +1,23 @@
+ 
+ /* toggle */
+ const homebtn = document.querySelector('.home')
+ 
+
+  
+ function toggleClass() {
+  const navbar = document.querySelector('.navbar')
+     navbar.classList.toggle('show')
+
+ }
+
+
+
+
+
+
 
 function myFunction() {
-  let x = document.getElementById("myTopnav");
+  let x = document.querySelector('.home')
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
