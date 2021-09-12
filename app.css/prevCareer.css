@@ -84,7 +84,6 @@
  .medaileImages {
    width: 50%;
  }
-
   
  .medaileImages:hover {
   transform: scale(1.5);
@@ -93,7 +92,6 @@
  .silver, .gold, .brondz {
    width: 35%;
    text-align: center;
-   
  }
 
  .imggold, .imgsilver, .imgbrondz {
@@ -109,6 +107,7 @@
    transform: scale(3.5);
  }
 
+ 
   /* CERTIFICATE */
    .onehalfrow {
     position: relative;
@@ -119,17 +118,19 @@
     text-align: center;
    }
 
+   .certificateImage {
+     width: 600px;
+   }
+
    .linkFastScore {
      position: relative;
-     top: -16px;
+     top: 18px;
      margin-left: 15px;
      border: 1px solid rgb(4, 4, 165);
      border-radius: 6px;
      padding: 10px;
      color: rgb(5, 5, 136);
-
    }
-
 
   /* SECOND ROW ALASKA GLASS AWARD */
   .alaskaAwards {
@@ -153,12 +154,9 @@
     height: auto;
   }
 
-
   .firstTeam, .sportmanShip, .performance {
     width: 20%;
   }
-
-   
 
   /* 3rd  ROW  BUUBLE-HEAD */
   .thirdrow {
@@ -198,7 +196,6 @@
 .dres {
   position: relative;
   width: 12rem;
-
 }
 
 
@@ -257,13 +254,6 @@
 }
 
 
-
-
-
-
-
-
-
  /* parent / for fetch*/
 .logo {
   position: relative;
@@ -291,18 +281,4 @@
  
 }
 
- 
 
-
-
-
-
-
-
-
-/* responsive web site */
-
-@media (max-width: 570px) {
- 
- 
-}
