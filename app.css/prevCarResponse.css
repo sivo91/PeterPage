@@ -1,0 +1,280 @@
+
+@media screen and  (min-width:768px) and  (max-width: 1022px) {
+
+   /* CERTIFICATE */
+  .onehalfrow {
+    position: relative;
+    left: 15%;
+    top: 30%;
+    text-align: center;
+   }
+
+   .certificateImage {
+     position: relative;
+    width: 500px!important;
+  }
+
+  .linkFastScore {
+    position: relative;
+    border: 1px solid rgb(4, 4, 165);
+    border-radius: 6px;
+    padding: 6px;
+    color: rgb(5, 5, 136);
+  }
+
+  /* GLASSES AWARDS  */
+
+  .alaskaAwards {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .firstTeam, .sportmanShip, .performance {
+    width: 7%;
+  }
+
+  .glassAwardsAlaska {
+    position: relative;
+    left: -50px;
+  }
+
+   /*   BOOBLE HEAD */
+   .thirdrow {
+    position: relative;
+    display: flex;
+    top: 30%;
+    text-align: center;
+  }
+
+  .BOOBLEHEAD {
+    width: 160px;
+  }
+
+  .fun-fact {
+    position: relative;
+    width: 120px;
+  }
+  
+  /* DRESSY */
+  .paneldresu {
+    position: relative;
+    width: 12rem;
+    height: 12rem;
+    margin: 30px;
+    left:90px;
+  }
+  
+
+   /* MODAL ***** */
+ 
+    /* show stats and img */
+.modal {
+  position: fixed;
+  width: 80%;
+  height: 30%!important;
+  top: 150px;
+  display: flex;
+  background-color: rgb(202, 202, 223);
+  z-index: 99999;
+  border: 2px solid blue;
+  border-radius: 18px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.textbox {
+  position: relative;
+  width: 50%;
+  left: -60px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.pictbox {
+  position: relative;
+  width: 30%!important;
+  left: -50px;
+}
+
+.closebtn {
+  position: fixed;
+  left: 83% !important;
+  font-size: 2rem;
+}
+
+/* PICTURES IN MODAL ******  */
+
+/*   LM, ZLIN, BRIDG, KOMETS */
+.ImgModal2 {
+  width: 300px!important;
+}
+
+.zaImg, .alaskaImg {
+  width: 150px;
+}
+
+.ZV, .abbotsImg, .StockImg {
+  width: 350px!important;
+}
+
+/*  SD, TULSA, RAPD, ORLD, UTAH, SHARK, SF, TN, PN, DUBN */
+.ImgModal {
+  width: 300px!important;
+  left: -20px;
+ }
+}
+
+@media screen and (max-width: 1022px) {
+
+  .TnMajster {
+    width: 280px!important;
+    
+  }
+
+  .AKcup{
+    width: 280px!important;
+  }
+
+  .duklamedaile {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+   }
+
+   .silver, .gold, .brondz {
+    margin-top: 120px;
+  }
+
+  .imggold, .imgsilver, .imgbrondz {
+    transform: scale(2.1);
+    position: relative;
+    top: 40px;
+  }
+
+  .certificateImage {
+    width: 270px!important;
+    
+  }
+
+  .glassAwards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .thirdrow {
+    position: relative;
+    width: 250px!important;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    text-align: center;
+  }
+
+
+
+  .alaskaAwards {
+    position: relative;
+    width: 290px!important;
+    
+    top: 25%;
+    text-align: center;
+    justify-content: center ;
+  }
+
+  .firstTeam, .sportmanShip, .performance {
+    width: 230px!important;
+  }
+
+.bubble-head, .bubble-stats, .fun-fuct {
+     width: 250px!important;
+}
+
+  .panel {
+    position: relative;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    left: 5%;
+    justify-content: center;
+  }
+
+  .modal {
+    position: fixed;
+    width: 85%!important;
+    height: 400px;
+    top: 150px;
+    display: flex;
+    background-color: rgb(202, 202, 223);
+    z-index: 99999;
+    border: 2px solid blue;
+    border-radius: 18px;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  .closebtn {
+    position: fixed;
+    left: 85%!important;
+    font-size: 2rem;
+  }
+
+  .textbox {
+    position: relative;
+    width: 180px!important;
+    font-size: 8px;
+    text-align: center;
+  }
+  
+  .pictbox {
+    position: relative;
+    
+  }
+ 
+  .ImgModal2 {
+    width: 150px!important;
+    align-items: center;
+    
+  }
+
+  .zaImg, .alaskaImg {
+    width: 150px!important;
+    left: -40px!important;
+  }
+  
+  .ZV, .abbotsImg, .StockImg {
+    width: 150px!important;
+  }
+
+  .ImgModal {
+    width: 150px!important;
+    left: -20px;
+    position: relative;
+    top: 50px;
+   }
+
+   .dots {
+     visibility: hidden;
+   }
+
+
+
+
+
+
+
+
+
+}
