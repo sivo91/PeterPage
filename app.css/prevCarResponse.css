@@ -129,9 +129,9 @@
 }
 
 
-/* ********************************************** */
+/* ******* FOR  IPHONE X AND MORE  ********* */
 
-@media screen and (max-width: 1022px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
 
   .TnMajster {
     width: 280px!important;
@@ -217,13 +217,13 @@
   .modal {
     position: fixed;
     width: 85%!important;
-    height: 400px;
+    height: 430px!important;
     top: 150px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(202, 202, 223);
+    background-color: rgb(248, 248, 245)!important;
     z-index: 99999;
-    border: 2px solid blue;
+    border: 1px solid blue;
     border-radius: 18px;
     overflow: hidden;
     visibility: hidden;
@@ -231,17 +231,19 @@
 
   .closebtn {
     position: fixed;
-    left: 85%!important;
+    left: 82%!important;
     font-size: 2rem;
   }
 
   .textbox {
     position: relative;
     width: 350px!important;
-    font-size: 8px;
-    left: -60px;
+    font-size: 11px;
+    left: -75px;
     top: -30px;
-    text-align: center;
+    opacity: 2;
+    /* align-items: center;
+    text-align: center; */
   }
   
   .pictbox {
@@ -251,31 +253,34 @@
     
   }
  
+  /*   LM, ZLIN, BRIDG, KOMETS */
   .ImgModal2 {
-    width: 110px!important;
+    width: 200px!important;
     align-items: center;
     position: relative;
-    top: 30px;
-    
+    top: 9px;
+    left: -40px;
     
   }
 
   .zaImg, .alaskaImg {
-    width: 150px!important;
+    width: 250px!important;
     left: -40px!important;
     position: relative;
-    top: 20px;
+    /* top: 5px; */
   }
   
   .ZV, .abbotsImg, .StockImg {
-    width: 150px!important;
+    width: 250px!important;
     position: relative;
     top: 30px;
+    left: -40px;
   }
 
+  /*  SD, TULSA, RAPD, ORLD, UTAH, SHARK, SF, TN, PN, DUBN */
   .ImgModal {
-    width: 150px!important;
-    left: -20px;
+    width: 250px!important;
+    left: -40px;
     position: relative;
     top: 50px;
    }
@@ -283,13 +288,5 @@
    .dots {
      visibility: hidden;
    }
-
-
-
-
-
-
-
-
-
 }
+
