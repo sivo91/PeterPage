@@ -69,7 +69,7 @@
   }
   
 
-   /* MODAL ***** */
+   /* MODAL ***** ****************************/
  
     /* show stats and img */
 .modal {
@@ -127,6 +127,9 @@
   left: -20px;
  }
 }
+
+
+/* ********************************************** */
 
 @media screen and (max-width: 1022px) {
 
@@ -217,6 +220,7 @@
     height: 400px;
     top: 150px;
     display: flex;
+    flex-direction: column;
     background-color: rgb(202, 202, 223);
     z-index: 99999;
     border: 2px solid blue;
@@ -233,29 +237,40 @@
 
   .textbox {
     position: relative;
-    width: 180px!important;
+    width: 350px!important;
     font-size: 8px;
+    left: -60px;
+    top: -30px;
     text-align: center;
   }
   
   .pictbox {
     position: relative;
+    left: 90px;
+    top: -90px;
     
   }
  
   .ImgModal2 {
-    width: 150px!important;
+    width: 110px!important;
     align-items: center;
+    position: relative;
+    top: 30px;
+    
     
   }
 
   .zaImg, .alaskaImg {
     width: 150px!important;
     left: -40px!important;
+    position: relative;
+    top: 20px;
   }
   
   .ZV, .abbotsImg, .StockImg {
     width: 150px!important;
+    position: relative;
+    top: 30px;
   }
 
   .ImgModal {

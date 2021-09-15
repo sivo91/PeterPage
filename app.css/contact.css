@@ -42,11 +42,13 @@
   padding: 10px;
   width: 100px;
   margin: 0 auto;
-  border: none;
+  border: 1px solid black;
+  letter-spacing: .7px;
   border-radius: 4px;
   color: black;
   font-size: 1rem;
   cursor: pointer;
+
 }
 
 .btnform:hover {
