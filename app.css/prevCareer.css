@@ -3,7 +3,6 @@
 .container {
   position: relative;
   width: 100%;
-  min-height: 100vh;
 }
 
  /* background image */
@@ -17,7 +16,7 @@
   opacity: 0.15;
 }
 
- /* BOX JERSEYS */
+ /* BOX JERSEYS FETCH MODULE */
 /* .prevCarrer {        
   position: relative;
   width: 95%;
@@ -208,6 +207,7 @@
   top: -82%;
 }
 
+ /* show stats and img */
 .modal {
   position: fixed;
   width: 80%;
@@ -221,15 +221,15 @@
   border: 2px solid blue;
   border-radius: 18px;
   padding: 15px;
+  overflow: hidden;
   visibility: hidden;
 }
 
 /* close btn modal */
 .closebtn {
-  position: relative;
+  position: fixed;
+  left: 87%;
   font-size: 2rem;
-  
-
 }
 
 .showit {
@@ -244,14 +244,12 @@
   text-align: center;
 }
 
- 
 .pictbox {
   position: relative;
-  width: 52%;
-  overflow: hidden;
-  width: 100%;
-  height: auto;
+  width: 48%;
 }
+ 
+
 
 
  /* parent / for fetch*/
@@ -278,7 +276,38 @@
   left: 35%;
   z-index: 200;
   top: -80%;
- 
 }
+
+/* PICTURES IN MODAL ******  */
+
+/*   LM, ZLIN, BRIDG, KOMETS */
+.ImgModal2 {
+  width: 400px;
+}
+
+.zaImg, .alaskaImg {
+  width: 300px;
+}
+
+.ZV, .abbotsImg, .StockImg {
+  width: 550px;
+}
+
+/*  SD, TULSA, RAPD, ORLD, UTAH, SHARK, SF, TN, PN, DUBN */
+.ImgModal {
+  width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 

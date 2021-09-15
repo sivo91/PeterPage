@@ -3,16 +3,10 @@
  const homebtn = document.querySelector('.home')
  
 
-  
  function toggleClass() {
   const navbar = document.querySelector('.navbar')
      navbar.classList.toggle('show')
-
  }
-
-
-
-
 
 
 
