@@ -148,6 +148,12 @@
     justify-content: space-evenly;
   }
 
+  /* BLUE PERFORMACE AWARD */
+
+  .perforBlueAward {
+    width: 400px;
+  }
+
   .glassAwardsAlaska {
     width: 200px;
     height: auto;

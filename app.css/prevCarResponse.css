@@ -1,4 +1,5 @@
 
+ /*  for ipad */
 @media screen and  (min-width:768px) and  (max-width: 1022px) {
 
    /* CERTIFICATE */
@@ -135,24 +136,34 @@
 
   .TnMajster {
     width: 280px!important;
+    left: -20px;
     
   }
 
   .AKcup{
     width: 280px!important;
+    left: -20px;
+  }
+
+  .panelindividawards {
+    position: relative;
+    top: -240px;
+
   }
 
   .duklamedaile {
     position: relative;
     width: 70%;
     left: 15%;
-    top: 60px;
+  
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     
    }
+
+
 
    .silver, .gold, .brondz {
     margin-top: 120px;
@@ -166,7 +177,15 @@
 
   .certificateImage {
     width: 270px!important;
+    position: relative;
+    left: -15px;
+ 
     
+  }
+
+  .secondrow {
+    position: relative;
+    top: -100px;
   }
 
   .glassAwards {
@@ -176,12 +195,24 @@
     justify-content: space-evenly;
   }
 
+  /* BLUE PERFORMACE AWARD */
+  .flagperformance{
+    position: relative;
+    width: 200px!important;
+    left: -17px;
+    margin: 0 auto;
+  }
+
+  .perforBlueAward {
+    width: 100%!important;
+  }
+
   .thirdrow {
     position: relative;
     width: 250px!important;
     display: flex;
     flex-direction: column;
-    top: 30%;
+    top: -180px!important;
     text-align: center;
   }
 
@@ -204,8 +235,14 @@
      width: 250px!important;
 }
 
+  .ha3 {
+    position: relative;
+    top: -500px;
+  }
+
   .panel {
     position: relative;
+    top: -500px;
     width: 95%;
     display: flex;
     flex-wrap: wrap;
@@ -221,18 +258,35 @@
     top: 150px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(248, 248, 245)!important;
+    background-color: white!important;
     z-index: 99999;
     border: 1px solid blue;
     border-radius: 18px;
-    overflow: hidden;
+    overflow: hidden!important;
     visibility: hidden;
+    z-index: 5;
+  }
+
+  .bgmodal {
+    position: fixed;
+    top: 145px;
+  
+    width: 290px!important;
+    height: 430px!important;
+    background-image: url('../hokejfoto/modalBG.png');
+    background-size: cover;
+    background-position: center;
+    opacity: .05;
+    z-index: 1;
+    
+
   }
 
   .closebtn {
     position: fixed;
     left: 82%!important;
     font-size: 2rem;
+    z-index: 8;
   }
 
   .textbox {
