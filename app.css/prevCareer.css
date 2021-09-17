@@ -152,7 +152,10 @@
 
   .perforBlueAward {
     width: 400px;
+    transform: rotate(-0.6deg);
+    animation: flag 3s ease-in-out infinite;
   }
+
 
   .glassAwardsAlaska {
     width: 200px;
