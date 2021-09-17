@@ -75,9 +75,10 @@
     /* show stats and img */
 .modal {
   position: fixed;
-  width: 80%;
+  width: 80%!important;
   height: 30%!important;
   top: 150px;
+  left: 10%!important;
   display: flex;
   background-color: rgb(202, 202, 223);
   z-index: 99999;
@@ -132,7 +133,7 @@
 
 /* ******* FOR  IPHONE X AND MORE  ********* */
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
 
   .TnMajster {
     width: 280px!important;
@@ -256,6 +257,7 @@
     width: 85%!important;
     height: 430px!important;
     top: 150px;
+    left: 7.5%!important;
     display: flex;
     flex-direction: column;
     background-color: white!important;
@@ -279,7 +281,6 @@
     opacity: .05;
     z-index: 1;
     
-
   }
 
   .closebtn {
