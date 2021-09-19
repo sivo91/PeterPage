@@ -10,6 +10,15 @@
     text-align: center;
    }
 
+   .duklamedaile {
+    position: relative;
+    width: 50%;
+    left: -23px!important;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+   }
+
    .certificateImage {
      position: relative;
     width: 500px!important;
@@ -42,6 +51,9 @@
     position: relative;
     left: -50px;
   }
+
+  
+
 
    /*   BOOBLE HEAD */
    .thirdrow {
@@ -82,7 +94,7 @@
   display: flex;
   background-color: rgb(202, 202, 223);
   z-index: 99999;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   border-radius: 18px;
   overflow: hidden;
   visibility: hidden;
@@ -155,26 +167,20 @@
   .duklamedaile {
     position: relative;
     width: 70%;
-    left: 15%;
-  
+    top: 60px;
+    left: -25px!important;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    
    }
 
-
-
-   .silver, .gold, .brondz {
-    margin-top: 120px;
-  }
-
-  .imggold, .imgsilver, .imgbrondz {
-    transform: scale(2.1);
+  .onehalfrow {
     position: relative;
-    top: 40px;
+    top: -100px!important;
   }
+
+  
 
   .certificateImage {
     width: 270px!important;
@@ -232,9 +238,9 @@
     width: 230px!important;
   }
 
-.bubble-head, .bubble-stats, .fun-fuct {
+  .bubble-head, .bubble-stats, .fun-fuct {
      width: 250px!important;
-}
+  }
 
   .ha3 {
     position: relative;
@@ -262,7 +268,7 @@
     flex-direction: column;
     background-color: white!important;
     z-index: 99999;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     border-radius: 18px;
     overflow: hidden!important;
     visibility: hidden;

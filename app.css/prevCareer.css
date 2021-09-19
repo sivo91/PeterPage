@@ -71,41 +71,17 @@
  /*  first row */
  .duklamedaile {
   position: relative;
-  width: 70%;
-  left: 15%;
-  top: 60px;
+  width: 50%;
+  left: -50px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
  }
+
+ .medailImgs {
+   width: 140%;
+ }
  
-
-   /* MEDAILE */
- .medaileImages {
-   width: 50%;
- }
-  
- .medaileImages:hover {
-  transform: scale(1.5);
- }
-
- .silver, .gold, .brondz {
-   width: 35%;
-   text-align: center;
- }
-
- .imggold, .imgsilver, .imgbrondz {
-   overflow: hidden;
- }
-
- .goldmedail {
-   width: 50%;
-   transform: scale(2.5);
- }
-
- .goldmedail:hover {
-   transform: scale(3.5);
- }
-
  
   /* CERTIFICATE */
    .onehalfrow {
@@ -214,6 +190,7 @@
   left: 37%;
   z-index: 200;
   top: -82%;
+  cursor: pointer;
 }
 
  /* show stats and img */
@@ -227,7 +204,7 @@
   display: flex;
   z-index: 99999;
   background-color: white;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   box-shadow: 5px 5px 25px gray;
   border-radius: 18px;
   padding: 15px;
@@ -298,6 +275,7 @@
   left: 35%;
   z-index: 200;
   top: -80%;
+  
 }
 
 /* PICTURES IN MODAL ******  */
