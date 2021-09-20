@@ -160,8 +160,12 @@
 
   .panelindividawards {
     position: relative;
-    top: -240px;
+    top: -140px;
+  }
 
+  .IndividualTitle{
+    position: relative;
+    top: 100px;
   }
 
   .duklamedaile {
