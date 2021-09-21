@@ -147,10 +147,13 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
+  .container {
+    overflow: hidden;
+  }
+
   .TnMajster {
     width: 280px!important;
     left: -20px;
-    
   }
 
   .AKcup{
@@ -243,6 +246,18 @@
   .bubble-head, .bubble-stats, .fun-fuct {
      width: 250px!important;
   }
+
+ 
+
+  .puck {
+    position: relative;
+    width: 250px;
+    left: 50%;
+    top: -590px!important;
+    transform: scale(1.1);
+  }
+
+
 
   .ha3 {
     position: relative;

@@ -148,6 +148,7 @@
     width: 400px;
     transform: rotate(-0.6deg);
     animation: flag 3s ease-in-out infinite;
+    padding: 10px;
   }
 
 
@@ -173,6 +174,13 @@
 
    .bubble-head, .bubble-stats, .fun-fuct {
      width: 40%;
+   }
+
+   .puck {
+     position: relative;
+     width: 250px;
+     left: 50%;
+     top: -140px;
    }
 
 
