@@ -147,10 +147,6 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-  .container {
-    overflow: hidden;
-  }
-
   .TnMajster {
     width: 280px!important;
     left: -20px;
