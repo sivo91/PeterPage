@@ -176,14 +176,6 @@
      width: 40%;
    }
 
-   .puck {
-     position: relative;
-     width: 250px;
-     left: 50%;
-     top: -140px;
-   }
-
-
   /* prvy panel dresov */
   .panel {
     position: relative;
