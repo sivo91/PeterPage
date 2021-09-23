@@ -144,7 +144,6 @@
 
 
 /* ******* FOR  IPHONE X AND MORE  ********* */
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
   .TnMajster {
@@ -182,8 +181,6 @@
     position: relative;
     top: -100px!important;
   }
-
-  
 
   .certificateImage {
     width: 270px!important;
@@ -224,8 +221,6 @@
     text-align: center;
   }
 
-
-
   .alaskaAwards {
     position: relative;
     width: 290px!important;
@@ -242,7 +237,6 @@
   .bubble-head, .bubble-stats, .fun-fuct {
      width: 250px!important;
   }
-
 
   .ha3 {
     position: relative;
@@ -287,8 +281,7 @@
     background-size: cover;
     background-position: center;
     opacity: .05;
-    z-index: 1;
-    
+    z-index: 1; 
   }
 
   .closebtn {
@@ -313,7 +306,6 @@
     position: relative;
     left: 90px;
     top: -90px;
-    
   }
  
   /*   LM, ZLIN, BRIDG, KOMETS */
@@ -321,9 +313,8 @@
     width: 200px!important;
     align-items: center;
     position: relative;
-    top: 9px;
+    top: 30px;
     left: -40px;
-    
   }
 
   .zaImg, .alaskaImg {

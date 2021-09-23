@@ -215,7 +215,7 @@
 .modal {
   position: fixed;
   width: 60%;
-  height: 50%;
+  height: 350px;
   left: 20%;
   top: 150px;
   letter-spacing: 0.5px;
@@ -315,9 +315,6 @@
 .ImgModal {
   width: 500px;
 }
-
-
-
 
 
 
