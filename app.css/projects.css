@@ -1,19 +1,39 @@
 
-
-
-
 .container {
   position: relative;
   width: 100%;
   height: 100vh;
- 
 }
 
-.construction {
+ .panelprojektov {
+   position: relative;
+   width: 90%;
+   left: 5%;
+   top: 5%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
+.boxprojectov {
   position: relative;
-  width: 70%;
-  left: 15%;
-  top: 150px;
+  width: 220px;
+  height: 220px;
+  color: rgb(216, 231, 241);
+  padding-top: 80px;
+  margin: 10px;
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid blue;
+  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+}
+
+.boxprojectov:active {
+  transform: scale(0.98);
 }
 
 
@@ -32,46 +52,3 @@
 
 
 
-
-
-/* responsive web site */
-
-@media (max-width: 570px) {
- 
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-  
-  
-  .navbar {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    align-items: center;
-    background-color: rgb(0, 0, 95);
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-    font-weight: 900;
-    letter-spacing: 1px;
-    z-index: 555;
-  }
-  
-  .navbar > a {
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    list-style: none;
-    font-size: 1.3rem;
-    color: rgb(255, 255, 255);
-    letter-spacing: .1px;
-    margin: 20px;
-  }
-}

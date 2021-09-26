@@ -316,6 +316,19 @@
   width: 500px;
 }
 
+.totalstats {
+  position: relative;
+  left: 45%;
+  width: 200px;
+  background-color: blanchedalmond;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 888;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  top: 400px;
+}
+
+
 
 
 

@@ -405,28 +405,6 @@ panel.innerHTML = jersy.map(function(item) {
    <!--  DRESS A LOGO -->
      <img src="${item.imagejersy}"  class="dres" alt="dres">
      <img src="${item.imagelogo}"  class="logoteamu" data-id="${item.id}" alt="orlando">
-
-   <!--  SHOWING STATS -->
-     <div class="modal">
-       <div class="bgmodal"></div>
-     
-       <div class="textbox">
-         <h2>Country: Slovakia, EU</h2>
-         <h2>Team: HK-32 Liptovsky Mikulas</h2>
-         <h2>League: Extraliga</h2>
-         <h2>Year: 1999 / 2000</h2>
-         <h2>Seassons: 1</h2>
-         <h2>Games: 36</h2>
-         <h2>Goals: 0</h2>
-         <h2>Assists: 0</h2>
-         <h2>Points: 0 </h2>
-       </div>
-
-       <div class="pictbox">
-         <img src="../logos/lm.png" class="ImgModal2" alt="lmimg">
-       </div>
-       <i class="far fa-times-circle closebtn"></i>
-     </div>
 </div>
  `
 }).join('')
@@ -494,6 +472,42 @@ const initApp = (e) => {
     })
   })
 }
+
+
+
+   //   PROJECTS SECTION  ******************
+    
+  /*  FILTER PROJECT */
+  const result = document.getElementById('result')
+  const filter = document.getElementById('filter')
+  const listItems = []
+
+  gatData()
+
+  async function gatData () {
+    const res = await fetch('https://randomuser.me/api?results=50')
+
+    const data = await res.json()
+    console.log(data)
+  }
+
+   
+     
+    
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
