@@ -511,46 +511,33 @@ const initApp = (e) => {
 
 
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
 //      contact  section ---------------
-let message = []
 
 const addMessage = (e) => {
   e.preventDefault()
 
-  let msg = {
-    id: Date.now(),
-    firstName: document.getElementById('name').value,
-    lastName: document.getElementById('email').value,
-    text: document.querySelector('textArea').value
-  }
-
    //name validate
-  const name = document.getElementById('name');
+  const name = document.querySelector('.firstname');
+  const last = document.querySelector('.lastName')
   const re1 = /^[a-zA-Z]{2,10}$/
 
    // email validate
    const email = document.getElementById('email')
    const re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+   const relast = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
    
-   if(!re1.test(name.value) || !re.test(email.value)) {
+   if(!re1.test(name.value) || !re.test(email.value) || !relast.test(last.value)) {
 
     // name
     name.classList.add('is-invalid')
     setTimeout(function(){
       name.classList.remove('is-invalid');
+    },3000)
+
+    //last
+    last.classList.add('is-invalid')
+    setTimeout(function(){
+      last.classList.remove('is-invalid');
     },3000)
     
     // email
@@ -561,28 +548,15 @@ const addMessage = (e) => {
 
     email.value = ''
     name.value = ''
+    last.value = ''
 
-  } else {
-   
-        message.push(msg)
-       
-        localStorage.setItem('Messagese', JSON.stringify(message))
-        console.warn('added', {message})
-        clearInputs()
-        localStorage.clear();
-   
-        const success = document.querySelector('.success')
-        success.classList.add('show')
-
-        setTimeout(function(){
-          success.classList.remove('show')
-        },2000)
   } 
 }
 
 
 const clearInputs = () => {
-    document.getElementById('name').value = '',
+    document.querySelector('firstname').value = '',
+    document.querySelector('lastname').value = '',
     document.getElementById('email').value = '',
     document.querySelector('textArea').value = ''
   }
