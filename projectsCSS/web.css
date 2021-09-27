@@ -47,9 +47,10 @@ h2 {
   width: 200px;
   overflow: hidden;
   border-radius: 5px;
-  box-shadow: 1px 1px 15px;
   cursor: pointer;
+  box-shadow: 1px 1px 15px;
   /* visibility: hidden; */
+  perspective: 200px;
 }
 
 .showdrink {
@@ -60,8 +61,16 @@ h2 {
   overflow: hidden;
 }
 
+h2 {
+  cursor: pointer;
+}
+
 .imgdrink {
   width: 200px;
+}
+
+.hidden {
+  display: none;
 }
 
 

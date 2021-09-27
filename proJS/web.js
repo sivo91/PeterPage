@@ -20,7 +20,14 @@ const drinks = fetch(url)
         `
         output.innerHTML = out
       })
-    
   })
 
-  
+   //for back side
+  /*  <div class="cocktailback hidden">
+           <h2>${item.strDrink}</h2>
+            <ul class="ingrediences">
+                 <li>${item.strIngredient1}</li>
+                 <li>${item.strIngredient2}</li>
+                 <li>${item.strIngredient3}</li>
+            </ul>
+         </div> */

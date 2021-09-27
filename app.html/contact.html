@@ -21,7 +21,16 @@
   </div>
 
  <main>
-    <div class="form">
+    <form class="form" action="https://formsubmit.co/1f1a2423c694244bbac84feb2eb6d02d" method="POST">
+
+       <!--  Honeypot -->
+         <input type="text" name="_honey" style="display: none;">
+        <!--  DISABLE CAPTCHA -->
+         <input type="hidden" name="_captcha" value="false">
+          <!-- Succes form -->
+          <input type="hidden" name="_next" value="https://sivo91.github.io/PeterPage/app.html/success.html">
+
+
         <div class="contactTitle">
           <h1>Do you have a question?</h1>
           <br>
@@ -33,17 +42,20 @@
 
         <!--  name -->
           <div class="name">
-            <input type="text" class="firstName" placeholder="First Name">
-              &nbsp;
-            <input type="text" class="lastName" placeholder="Last Name">
+            <input type="text" class="firstName" name="First&nbsp;name" placeholder="First Name" required><br><br>
+             
+            <input type="text" class="lastName" name="Last&nbsp;name" placeholder="Last Name" required>
           </div>
           <br>
+          <input type="email" class="email" name="email" id="email" placeholder="Email" required>
+          <br>
+          <br>
           <!-- message -->
-          <textarea class="textArea" cols="70" rows="4" placeholder="Message"></textarea>
+          <textarea class="textArea" name="comments,&nbsp;questions" cols="45" rows="7" placeholder="Message"></textarea>
         </div>
         <br>
         <button class="btnform">Send <i class="fas fa-paper-plane plane"></i></button>
-    </div>
+    </form>
  </main>
 
   <script src="../app.js"></script>

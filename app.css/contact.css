@@ -1,5 +1,6 @@
  
 
+
  main {
   position: relative;
   width: 100%;
@@ -30,8 +31,14 @@
   border: 1px solid black;
 }
 
+.email {
+  width: 240px;
+  padding: 9px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
 .textArea {
-  width: 490px;
   border-radius: 4px;
   border-radius: none;
   padding: 9px;
@@ -78,7 +85,7 @@
 
 /* responsive web site */
 
-@media (max-width: 570px) {
+@media (max-width: 270px) {
 
   .form {
     position: relative;
@@ -104,9 +111,18 @@
     margin: 0 auto;
   }
   
-
   .textArea {
-    width: 300px;
+    width: 250px;
+    border-radius: 4px;
+    border-radius: none;
+    padding: 9px;
+  }
+}
+
+@media (min-width: 250px) and (max-width:700px) {
+
+ .textArea {
+    width: 245px;
     border-radius: 4px;
     border-radius: none;
     padding: 9px;
