@@ -17,5 +17,6 @@ h3 {
   position: relative;
   width: 40%;
   left: 30%;
-
+  border-radius: 9px;
+  box-shadow:1px 1px 45px rgb(55, 194, 212);
 }
