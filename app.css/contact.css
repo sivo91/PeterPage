@@ -1,5 +1,4 @@
- 
-
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Eater&family=Frijole&family=Kelly+Slab&family=Nosifer&display=swap');
 
  main {
   position: relative;
@@ -22,6 +21,14 @@
   position: relative;
   width: 100%;
   margin: 0 auto;
+}
+
+.contactTitle h1, .contactTitle h2 {
+font-family: 'Black And White Picture', sans-serif;
+font-size: 3rem;
+ 
+/* font-family: 'Nosifer', cursive;
+   */
 }
 
 .firstName, .lastName {

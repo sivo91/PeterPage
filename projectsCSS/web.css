@@ -22,7 +22,7 @@ h2 {
   text-align: center;
 }
 
-.Sticks-hoping-cart {
+ .Sticks-hoping-cart {
   position: relative;
   top: 100px;
   width: 300px;
@@ -37,4 +37,6 @@ h2 {
 
 .shop-cart {
   color: rgb(14, 50, 150);
-}
+} 
+
+ 

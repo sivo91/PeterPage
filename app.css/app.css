@@ -1,4 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Eater&family=Frijole&family=Griffy&family=Kelly+Slab&family=Nosifer&display=swap');
+
+
 * {
   padding: 0;
   margin: 0;
@@ -26,7 +31,7 @@
 }
 
 .navbar > a {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Kelly Slab', cursive;
   text-decoration: none;
   list-style: none;
   font-size: 1.3rem;
@@ -36,7 +41,7 @@
 }
 
 .navbar > a:hover {
-  text-shadow: 3px 3px 17px black;
+  text-decoration: underline;
 }
 
 .home {
@@ -47,6 +52,10 @@
   visibility: hidden;
 }
 
+.container h1 {
+ font-family: 'Griffy', cursive;
+ font-size: 3rem;
+}
 
 
 /*  responsive  ******************/
