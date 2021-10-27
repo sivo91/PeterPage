@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Eater&family=Frijole&family=Griffy&family=Kelly+Slab&family=Nosifer&family=Rye&display=swap');
+
 .container {
   position: relative;
   width: 100%;
@@ -13,6 +15,11 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
+ }
+
+ .panelprojektov a {
+   font-family: 'Rye', cursive;
+   font-size: 2.2rem;
  }
 
 .boxprojectov {
