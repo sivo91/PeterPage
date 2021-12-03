@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../app.css/contact.css">
+  <link rel="stylesheet" href="../app.css/app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+     <!-- navbar -->
+     <nav class="navbar toggle">
+      <a href="#"><i class="fas fa-bars home" onclick="toggleClass()"></i></a>
+      <a href="../app.html/app.html"><i class="fas fa-home"></i></a>
+      <a href="../app.html/about.html">About</a>
+      <a href="../app.html/prevCareer.html">Previous Career</a>
+      <a href="../app.html/projects.html">Projects</a>
+      <a href="../app.html/contact.html">Contact</a>
+  </nav>
+
+ <main>
+    <form class="form" action="https://formsubmit.co/1f1a2423c694244bbac84feb2eb6d02d" method="POST">
+
+       <!--  Honeypot -->
+         <input type="text" name="_honey" style="display: none;">
+        <!--  DISABLE CAPTCHA -->
+         <input type="hidden" name="_captcha" value="false">
+          <!-- Succes form -->
+          <input type="hidden" name="_next" value="https://sivo91.github.io/PeterPage/app.html/success.html">
+
+
+        <div class="contactTitle">
+          <h1>Do you have a question?</h1>
+          <br>
+          <h2>Contact me!</h2>
+        </div>
+        <br><br><br>
+      <!--  form -->
+        <div class="contactForm">
+
+        <!--  name -->
+          <div class="name">
+            <input type="text" class="firstName" name="First&nbsp;name" placeholder="First Name" required><br><br>
+             
+            <input type="text" class="lastName" name="Last&nbsp;name" placeholder="Last Name" required>
+          </div>
+          <br>
+          <input type="email" class="email" name="email" id="email" placeholder="Email" required>
+          <br>
+          <br>
+          <!-- message -->
+          <textarea class="textArea" name="comments,&nbsp;questions" cols="45" rows="7" placeholder="Message"></textarea>
+        </div>
+        <br>
+        <button class="btnform">Send <i class="fas fa-paper-plane plane"></i></button>
+    </form>
+ </main>
+
+  <script src="../app.js"></script>
+</body>
+</html>

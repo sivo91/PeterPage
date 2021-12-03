@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Eater&family=Frijole&family=Griffy&family=Kelly+Slab&family=Nosifer&family=Rye&display=swap');
+
+ 
+
+
+main {
+  position: relative;
+  width: 80%;
+  top: 50px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #dce6f0;
+}
+
+main h1 {
+  text-align: center;
+  color: blue;
+  font-family: 'Rye', cursive;
+}
+
+ul {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+ul > li {
+  font-size: 30px;
+  color: rgb(6, 6, 83);
+  font-weight: 500;
+  padding: 4px 8px;
+ 
+}
+
+ul > li > a {
+  padding: 4px 8px;
+   border-radius: 8px;
+}
+
+
+
+
+ul > li > a:hover {
+  background: #3228b9; 
+  color: white;    
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+ul > li > ul {
+  position: relative;
+  top: -10px;
+  left: -30px;
+  display: none;
+}
+
+  ul li:hover>ul {
+	display: block;
+	z-index: 5;
+}
+
+ul ul li a {
+		font-size: 25px;
+}
+
+
+
+/* MEDIA @ */
+
+@media only screen and (max-width: 767px) and (max-width: 992px) {
+
+  main {
+  position: relative;
+  width: 95%;
+  top: 140px;
+  margin: 0 auto;
+  }
+ 
+   ul {
+  position: relative;
+  width: 100%;
+   }
+
+   ul > li > ul {
+     position: relative;
+     left: 30px;
+   }
+}
+
+
+
+
+/* FOR IPADS */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+ 
+   ul {
+  position: relative;
+  width: 80%;
+   }
+}
+
+
+

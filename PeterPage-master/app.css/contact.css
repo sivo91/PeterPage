@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Eater&family=Frijole&family=Griffy&family=Kelly+Slab&family=Nosifer&display=swap');
+
+ main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+ }
+
+ .form {
+  position: relative;
+  top: 150px;
+  width: 100%;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+ }
+
+
+.name {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contactTitle h1, .contactTitle h2 {
+font-family: 'Griffy', cursive;
+font-size: 3rem;
+ 
+/* font-family: 'Nosifer', cursive;
+   */
+}
+
+.firstName, .lastName {
+  width: 240px;
+  padding: 9px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.email {
+  width: 240px;
+  padding: 9px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.textArea {
+  border-radius: 4px;
+  border-radius: none;
+  padding: 9px;
+}
+
+.btnform {
+  position: relative;
+  padding: 10px;
+  width: 100px;
+  margin: 0 auto;
+  border: 1px solid black;
+  letter-spacing: .7px;
+  border-radius: 4px;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+
+}
+
+.btnform:hover {
+  background-color: blue;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.plane {
+  position: relative;
+  width: 5px;
+  height:  5px;
+  font-size: 17px;
+  margin: 5px;
+  animation: plane 1s  infinite;
+}
+
+@keyframes plane {
+  0% { transform: translateY(0); }
+
+  50% { transform: translate(2px, -2px); }
+
+   0% { transform: translateY(0); }
+
+}
+
+
+/* responsive web site */
+
+@media (max-width: 270px) {
+
+  .form {
+    position: relative;
+    top: 100px;
+    width: 100%;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
+   }
+
+  .contactForm {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .name {
+    position: relative;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .textArea {
+    width: 250px;
+    border-radius: 4px;
+    border-radius: none;
+    padding: 9px;
+  }
+}
+
+@media (min-width: 250px) and (max-width:700px) {
+
+ .textArea {
+    width: 245px;
+    border-radius: 4px;
+    border-radius: none;
+    padding: 9px;
+  }
+}
