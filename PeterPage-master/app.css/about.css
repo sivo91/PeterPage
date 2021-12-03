@@ -6,13 +6,13 @@
 } */
 
 .container {
-    position: relative;
-    top: 40px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
+  position: relative;
+  top: 40px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 
 .aboutText {
   position: relative;
@@ -24,7 +24,6 @@
 }
 
 @media (max-width: 570px) {
-
   .aboutText {
     position: relative;
     width: 300px;
@@ -33,6 +32,5 @@
     margin: 0 auto;
     font-size: 20px;
     letter-spacing: 1px;
-    
   }
-} 
+}
